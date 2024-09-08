@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(16, 16, 51);
+}
+header h1{
+    color: white;
+}
+
+.choice{
+    height: 170px;
+    width: 170px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+   
+}
+.choice:hover{
+   opacity: 0.5;
+    cursor: pointer;
+}
+img{
+        height: 150px;
+            width: 150px;
+            object-fit: cover;
+                border-radius: 50%;
+}
+.choices{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 40px;
+}
+.score{
+    margin-right: 30px;
+    font-size: 4rem;
+}
+#user-score,#comp-score{
+    font-size: 5rem;
+    margin-left: 45px;
+}
+.msg-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 2rem;
+
+}
+#msg{
+background-color: rgb(16, 16, 51);
+color: white;
+padding: 0 50px 0 50px;
+border-radius: 5px;
+    
+
+}
+.reset-container{
+    display:flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.reset-btn{
+    background-color: rgb(16, 16, 51);
+        color: white;
+        padding: 0 25px 0 25px;
+        border-radius: 5px;
+        height: 30px;
+        font-size: 20px;
+}
